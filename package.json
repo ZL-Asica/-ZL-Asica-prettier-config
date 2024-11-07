@@ -1,29 +1,31 @@
 {
     "name": "@zl-asica/prettier-config",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "A shareable and reusable Prettier configuration by ZL-Asica.",
-    "main": "./prettier.config.js",
-    "funding": "https://github.com/sponsors/ZL-Asica",
-    "homepage": "https://github.com/ZL-Asica/prettier-config",
-    "bugs": "https://github.com/ZL-Asica/prettier-config/issues",
+    "author": {
+      "name": "ZL Asica",
+      "email": "zl@zla.app",
+      "url": "https://github.com/ZL-Asica/"
+    },
     "license": "MIT",
     "repository": {
-        "type": "git",
-        "url": "https://github.com/ZL-Asica/prettier-config"
+      "type": "git",
+      "url": "git+https://github.com/ZL-Asica/prettier-config.git"
     },
+    "bugs": "https://github.com/ZL-Asica/prettier-config/issues",
+    "homepage": "https://github.com/ZL-Asica/prettier-config",
+    "funding": "https://github.com/sponsors/ZL-Asica",
+    "main": "./prettier.config.js",
     "keywords": [
-        "prettier",
-        "prettier-config",
-        "code style",
-        "formatter",
-        "shareable config",
-        "zl-asica"
+      "prettier",
+      "prettier-config",
+      "code style",
+      "formatter",
+      "shareable config",
+      "zl-asica"
     ],
-    "author": {
-        "name": "ZL Asica",
-        "url": "https://github.com/ZL-Asica/"
-    },
     "peerDependencies": {
-        "prettier": "^3.0.0"
+      "prettier": "^3.0.0"
     }
-}
+  }
+  

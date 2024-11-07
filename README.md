@@ -1,8 +1,8 @@
 # @zl-asica/prettier-config
 
-![npm version][npm-version-badge]
-![License][license-badge]
-![Downloads][downloads-badge]
+[![npm version][npm-version-badge]][npm-versions-link]
+[![License][license-badge]][license-link]
+[![Downloads][downloads-badge]][npm-package-page]
 [![code style: prettier][prettier-badge]][prettier-link]
 [![Sponsor][sponsor-badge]][sponsor-link]
 
@@ -36,10 +36,6 @@ module.exports = require("@zl-asica/prettier-config")
 
 Now, all Prettier commands will follow the configuration provided by `@zl-asica/prettier-config`.
 
-### JSON Formatting Override
-
-This configuration includes a specific override for JSON files, setting `tabWidth` to 4 spaces, ensuring clearer structure in JSON documents. All other files use 2 spaces per indentation level.
-
 ## Configuration Details
 
 This configuration includes the following Prettier options:
@@ -55,6 +51,10 @@ This configuration includes the following Prettier options:
 - **Single attribute per line**: Puts each attribute on a new line in JSX.
 - **Embedded language formatting**: Automatically formats embedded code (e.g., HTML in markdown).
 - **Vue support**: Indents `<script>` and `<style>` tags in Vue files.
+
+### JSON Formatting Override
+
+This configuration includes a specific override for JSON files, setting `tabWidth` to 4 spaces, ensuring clearer structure in JSON documents. All other files use 2 spaces per indentation level.
 
 ## Recommended .prettierignore
 
@@ -111,6 +111,8 @@ This project is licensed under the [MIT License][license-link].
 
 <!-- Links -->>
 
+[npm-versions-link]: https://www.npmjs.com/package/@zl-asica/prettier-config?activeTab=versions
+[npm-package-page]: https://www.npmjs.com/package/@zl-asica/prettier-config
 [prettier-link]: https://github.com/prettier/prettier
 [sponsor-link]: https://github.com/sponsors/ZL-Asica
 [prettierignore-download-link]: https://raw.githubusercontent.com/ZL-Asica/prettier-config/main/.prettierignore
