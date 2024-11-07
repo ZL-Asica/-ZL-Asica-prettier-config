@@ -3,7 +3,7 @@ name: 🏷️ Publish Package
 on:
   push:
     tags:
-      - 'v*' # Trigger only on version tags like v1.0.0
+      - 'v*' # Only trigger when a version tag is pushed, like v1.0.0
 
 jobs:
   publish:
@@ -22,8 +22,12 @@ jobs:
       - name: 🛠️ Install dependencies
         run: npm ci # Using npm ci for a clean install based on package-lock.json
 
-      - name: 🔧 Fix package.json issues
-        run: npm pkg fix # Automatically fix package.json formatting issues
+      - name: 📝 Use tag version in package.json
+        run: |
+          VERSION="${GITHUB_REF#refs/tags/v}"
+          npm version "$VERSION" --no-git-tag-version
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - name: 🚀 Publish to npm
         run: npm publish
