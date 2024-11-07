@@ -9,6 +9,10 @@ jobs:
   publish:
     runs-on: ubuntu-latest
 
+    permissions:
+      contents: read
+      packages: write # Ensure GITHUB_TOKEN has write access to packages
+
     steps:
       - name: 📂 Checkout code
         uses: actions/checkout@v4
@@ -42,4 +46,4 @@ jobs:
       - name: 🏡 Publish to GitHub Packages
         run: npm publish
         env:
-          NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }} # Use GitHub token for GitHub Packages
+          NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }} # Use GITHUB_TOKEN for GitHub Packages
