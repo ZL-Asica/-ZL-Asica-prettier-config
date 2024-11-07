@@ -13,11 +13,11 @@ A shareable and reusable Prettier configuration by **ZL Asica**, designed to ens
 Install this package as a development dependency in your project:
 
 ```bash
-npm install --save-dev @zl-asica/prettier-config
+npm install --save-dev @zl-asica/prettier-config prettier @trivago/prettier-plugin-sort-imports
 # or with Yarn
-yarn add -D @zl-asica/prettier-config
+yarn add -D @zl-asica/prettier-config prettier @trivago/prettier-plugin-sort-imports
 # or with pnpm
-pnpm add -D @zl-asica/prettier-config
+pnpm add -D @zl-asica/prettier-config prettier @trivago/prettier-plugin-sort-imports
 ```
 
 ## Usage
@@ -28,7 +28,7 @@ To use this Prettier configuration, create a `.prettierrc` file in the root dire
 "@zl-asica/prettier-config"
 ```
 
-Alternatively, if you prefer `.prettierrc.js`:
+Alternatively, if you prefer `.prettierrc.js` or `prettier.config.js`:
 
 ```javascript
 module.exports = require("@zl-asica/prettier-config")

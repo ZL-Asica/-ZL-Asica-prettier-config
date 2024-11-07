@@ -4,6 +4,16 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.0.4] - 2024-11-07
+
+### Added
+
+- **Sort imports**: Implement `@trivago/prettier-plugin-sort-imports` for import sorting.
+
+### Changed
+
+- **Readme**: Remember user to install `prettier` and other peerDependencies at the same time they install this package.
+
 ## [1.0.3] - 2024-11-07
 
 ### Changed
