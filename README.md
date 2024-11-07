@@ -13,11 +13,11 @@ A shareable and reusable Prettier configuration by **ZL Asica**, designed to ens
 Install this package as a development dependency in your project:
 
 ```bash
-npm install --save-dev @zl-asica/prettier-config prettier @trivago/prettier-plugin-sort-imports
+npm install --save-dev prettier @zl-asica/prettier-config
 # or with Yarn
-yarn add -D @zl-asica/prettier-config prettier @trivago/prettier-plugin-sort-imports
+yarn add -D prettier @zl-asica/prettier-config
 # or with pnpm
-pnpm add -D @zl-asica/prettier-config prettier @trivago/prettier-plugin-sort-imports
+pnpm add -D prettier @zl-asica/prettier-config
 ```
 
 ## Usage

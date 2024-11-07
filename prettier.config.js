@@ -22,11 +22,6 @@ const config = {
   proseWrap: 'preserve', // Do not automatically wrap markdown text (useful for documentation)
   vueIndentScriptAndStyle: true, // Indent script and style tags in Vue files
 
-  importOrderSeparation: true,
-  importOrderSortSpecifiers: true,
-
-  plugins: ['@trivago/prettier-plugin-sort-imports'],
-
   // Override settings specifically for JSON files
   overrides: [
     {
