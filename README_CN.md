@@ -5,7 +5,7 @@
 [![代码格式: prettier][prettier-badge]][prettier-link]  
 [![赞助][sponsor-badge]][sponsor-link]  
 
-> [English Version](README.md) | [中文版本](README_CN.md)
+> [English](README.md) | [中文](README_CN.md)
 
 一个由 **ZL Asica** 提供的可共享和可复用的 Prettier 配置，旨在确保 JavaScript、TypeScript 和 React 项目中一致的代码格式化。
 
@@ -42,7 +42,7 @@ module.exports = require("@zl-asica/prettier-config")
 此配置包含以下 Prettier 选项：
 
 - **Trailing commas**：仅在 ES5 合法的地方添加尾随逗号（例如对象和数组）。
-- **Tab width**：每个缩进使用 2 个空格（JSON 文件使用 4 个空格）。
+- **Tab width**：每个缩进使用 2 个空格。
 - **Semicolons**：在语句末尾使用分号。
 - **Quotes**：字符串和 JSX 使用单引号。
 - **Bracket spacing**：对象字面量中的大括号内添加空格 (`{ foo: bar }`)。

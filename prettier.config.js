@@ -21,16 +21,6 @@ const config = {
   htmlWhitespaceSensitivity: 'css', // Handle whitespace in HTML based on CSS display property
   proseWrap: 'preserve', // Do not automatically wrap markdown text (useful for documentation)
   vueIndentScriptAndStyle: true, // Indent script and style tags in Vue files
+};
 
-  // Override settings specifically for JSON files
-  overrides: [
-    {
-      files: '*.json',
-      options: {
-        tabWidth: 4, // Use 4 spaces for indentation in JSON files
-      },
-    },
-  ],
-}
-
-module.exports = config
+module.exports = config;

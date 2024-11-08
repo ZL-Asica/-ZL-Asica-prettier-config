@@ -5,7 +5,7 @@
 [![code style: prettier][prettier-badge]][prettier-link]
 [![Sponsor][sponsor-badge]][sponsor-link]
 
-> [English Version](README.md) | [中文版本](README_CN.md)
+> [English](README.md) | [中文](README_CN.md)
 
 A shareable and reusable Prettier configuration by **ZL Asica**, designed to ensure consistent code formatting across JavaScript, TypeScript, and React projects.
 
@@ -42,7 +42,7 @@ Now, all Prettier commands will follow the configuration provided by `@zl-asica/
 This configuration includes the following Prettier options:
 
 - **Trailing commas**: Only where valid in ES5 (e.g., objects, arrays).
-- **Tab width**: 2 spaces per tab (except JSON, which uses 4 spaces).
+- **Tab width**: 2 spaces per tab.
 - **Semicolons**: Enable semicolons at the end of statements.
 - **Quotes**: Single quotes for strings and JSX.
 - **Bracket spacing**: Spaces inside object literals (`{ foo: bar }`).
