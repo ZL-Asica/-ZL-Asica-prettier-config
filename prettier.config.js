@@ -7,7 +7,7 @@ const config = {
   printWidth: 80, // Wrap lines at 80 characters
   tabWidth: 2, // Set the number of spaces per indentation level
   useTabs: false, // Use spaces instead of tabs for indentation
-  semi: false, // Omit semicolons at the ends of statements
+  semi: true, // Omit semicolons at the ends of statements
   singleQuote: true, // Use single quotes instead of double quotes
   jsxSingleQuote: true, // Use single quotes in JSX
   quoteProps: 'as-needed', // Only add quotes around object keys when required

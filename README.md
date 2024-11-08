@@ -2,9 +2,10 @@
 
 [![npm version][npm-version-badge]][npm-versions-link]
 [![License][license-badge]][license-link]
-[![Downloads][downloads-badge]][npm-package-page]
 [![code style: prettier][prettier-badge]][prettier-link]
 [![Sponsor][sponsor-badge]][sponsor-link]
+
+> [English Version](README.md) | [中文版本](README_CN.md)
 
 A shareable and reusable Prettier configuration by **ZL Asica**, designed to ensure consistent code formatting across JavaScript, TypeScript, and React projects.
 
@@ -42,7 +43,7 @@ This configuration includes the following Prettier options:
 
 - **Trailing commas**: Only where valid in ES5 (e.g., objects, arrays).
 - **Tab width**: 2 spaces per tab (except JSON, which uses 4 spaces).
-- **Semicolons**: No semicolons at the end of statements.
+- **Semicolons**: Enable semicolons at the end of statements.
 - **Quotes**: Single quotes for strings and JSX.
 - **Bracket spacing**: Spaces inside object literals (`{ foo: bar }`).
 - **Arrow function parameters**: Always include parentheses, even with a single parameter.
@@ -51,10 +52,6 @@ This configuration includes the following Prettier options:
 - **Single attribute per line**: Puts each attribute on a new line in JSX.
 - **Embedded language formatting**: Automatically formats embedded code (e.g., HTML in markdown).
 - **Vue support**: Indents `<script>` and `<style>` tags in Vue files.
-
-### JSON Formatting Override
-
-This configuration includes a specific override for JSON files, setting `tabWidth` to 4 spaces, ensuring clearer structure in JSON documents. All other files use 2 spaces per indentation level.
 
 ## Recommended .prettierignore
 
@@ -105,14 +102,12 @@ This project is licensed under the [MIT License][license-link].
 
 [npm-version-badge]: https://img.shields.io/npm/v/@zl-asica/prettier-config?style=flat-square
 [license-badge]: https://img.shields.io/github/license/ZL-Asica/prettier-config?style=flat-square
-[downloads-badge]: https://img.shields.io/npm/dt/@zl-asica/prettier-config?style=flat-square
 [prettier-badge]: https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square
 [sponsor-badge]: https://img.shields.io/badge/sponsor-%E2%9D%A4-red?style=flat-square
 
 <!-- Links -->>
 
-[npm-versions-link]: https://www.npmjs.com/package/@zl-asica/prettier-config?activeTab=versions
-[npm-package-page]: https://www.npmjs.com/package/@zl-asica/prettier-config
+[npm-versions-link]: https://www.npmjs.com/package/@zl-asica/prettier-config
 [prettier-link]: https://github.com/prettier/prettier
 [sponsor-link]: https://github.com/sponsors/ZL-Asica
 [prettierignore-download-link]: https://raw.githubusercontent.com/ZL-Asica/prettier-config/main/.prettierignore
