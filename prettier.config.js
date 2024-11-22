@@ -17,7 +17,7 @@ const config = {
   bracketSpacing: true, // Add spaces inside braces in object literals
   arrowParens: 'always', // Always include parentheses around arrow function parameters
   endOfLine: 'lf', // Use LF for line breaks (for cross-platform compatibility)
-  singleAttributePerLine: false, // Put every JSX attribute in a new line
+  singleAttributePerLine: true, // Put every JSX attribute in a new line
   embeddedLanguageFormatting: 'auto', // Automatically format embedded code (like HTML in markdown)
   htmlWhitespaceSensitivity: 'css', // Handle whitespace in HTML based on CSS display property
   proseWrap: 'preserve', // Do not automatically wrap markdown text (useful for documentation)
