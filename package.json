@@ -16,6 +16,14 @@
     "homepage": "https://github.com/ZL-Asica/prettier-config",
     "funding": "https://github.com/sponsors/ZL-Asica",
     "main": "./prettier.config.js",
+    "module": "./prettier.config.js",
+    "exports": {
+      ".": {
+        "import": "./prettier.config.js",
+        "require": "./prettier.config.js",
+        "default": "./prettier.config.js"
+      }
+    },
     "keywords": [
       "prettier",
       "prettier-config",
